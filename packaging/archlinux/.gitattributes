@@ -1,0 +1,2 @@
+# git format-patch includes context-only lines and a standard signature separator.
+*.patch -whitespace

@@ -1,5 +1,11 @@
 ## Aquamarine
 
+This branch backports upstream's null-connector teardown fix to **v0.15.0**,
+the Aquamarine version in Omarchy's stable Arch mirror as of September 29, 2026.
+The [Arch package recipe and regression test](packaging/archlinux/README.md)
+reproduce the local **0.15.0-2.1** build used alongside
+[omacom/omarchy#13778](https://github.com/omacom/omarchy/pull/13778).
+
 Aquamarine is a very light linux rendering backend library. It provides basic abstractions
 for an application to render on a Wayland session (in a window) or a native DRM session.
 
